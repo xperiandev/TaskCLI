@@ -1,0 +1,29 @@
+initTodo()
+    creates todo.txt.
+
+updateTodo()
+    syncs the todo.txt in memory.
+
+printTodo(bool withIndex)
+    prints each item of the todo list (if withIndex is true, also with its indexes).
+
+addTask(string task)
+    adds the task to the todo.
+
+deleteTodo()
+    deletes the todo with that index (shown using printTodo(withIndex=true)).
+
+char promptUser(string prompt)
+    it prompts user with the given text and returns their answer to it in single char.
+
+char confirmUser(string prompt)
+    same as promptUser but returns only y/n s char and else re-prompts.
+
+string getCurrentTime()
+    returns the timestamp.
+
+saveTodo()
+    saves the todo vector contents into todo.txt file.
+
+validateInput()
+    validates user's input and find what function to call.
